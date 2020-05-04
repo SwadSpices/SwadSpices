@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SwadSpices</title>
+		<link rel="stylesheet" type="text/css" href="contact.css">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+<body>
+
+	<nav>
+
+		<div id="logo"> 
+			<img src="chef.png" width="50px" height="50px"></img><a href="index.html"> Swad <span style="color:green;">Spices</span></a>
+		</div>
+
+		<div id="menu-bar">
+			<div id="bar1">
+					</div>
+			<div id="bar2">
+					</div>
+			<div id="bar3">
+			</div>
+		</div>
+
+		<ul>
+			
+			
+			<li><a href="contact.html">Contact Me</a></li>
+		</ul>
+
+	</nav>
+
+	<header>
+
+		
+	<div id="background">
+	</div>
+
+		<div id="text">
+			
+			<p>Contact <span style="color:green;">me</p><br>
+				<img src="wp.png" width="75px" height="75px"></img><br><br><a href="https://api.whatsapp.com/send?phone=919403571149&text=Hello%20"><button>Send Message on WhatsApp</button></a><br><br><div id="cont">Mrs.Sampada S.Kulkarni<br>
+1)9403571149
+2)9545376169.</div>
+		</div>	
+
+		
+
+	</header>
+
+
+
+	
+
+	
+
+	<script>
+
+			var menu_bar = document.getElementById("menu-bar");
+			var navul = document.getElementsByTagName("ul")[0];
+
+			menu_bar.addEventListener("click", toggle_cross);
+
+			function toggle_cross(){
+				navul.classList.toggle("open");
+				menu_bar.classList.toggle("cross");
+			}
+	</script>
+
+
+
+</body>
+</html>

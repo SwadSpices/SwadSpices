@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Swad Spices</title>
+		<link rel="stylesheet" type="text/css" href="aboutme.css">
+		<link href="https://fonts.googleapis.com/css?family=Merriweather|Molle:400i|Muli|Roboto&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+
+	<nav>
+
+		<div id="logo"> <!--LOGO-->
+			<img src="chef.png" width="50px" height="50px"></img><a href="index.html"> Swad <span style="color:green;">Spices</span></a>
+		</div>
+
+		<div id="menu-bar">
+			<div id="bar1">
+					</div>
+			<div id="bar2">
+					</div>
+			<div id="bar3">
+			</div>
+		</div>
+
+		<ul>
+			<li><a href="aboutme.html">About Me</a></li>
+			<li><a href="contact.html">Contact Me</a></li>
+		</ul>
+
+	</nav>
+
+	<header>
+
+		
+	<div id="background">
+	</div>
+
+		<div id="text">
+			About <span style="color:green;">Me</span>
+			
+		</div>	
+
+	</header>
+
+	<section class="s1">
+		
+		<div id="image">
+			
+			<img src="my.jpg" height="400px" width="350px"></img>
+		</div>
+
+	</section>
+
+	
+
+	<script>
+
+			var menu_bar = document.getElementById("menu-bar");
+			var navul = document.getElementsByTagName("ul")[0];
+
+			menu_bar.addEventListener("click", toggle_cross);
+
+			function toggle_cross(){
+				navul.classList.toggle("open");
+				menu_bar.classList.toggle("cross");
+			}
+
+
+		</script>
+
+</body>
+</html>
